@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bookholder</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/master.css">
+    </head>
+<body class="flex items-center justify-center h-screen bg-gray-100">
+    <div class="bg-white p-6 rounded-lg shadow-md w-80">
+        <!-- Title -->
+        <h1 class="text-2xl font-bold text-center text-gray-800 mb-6">Bookholder</h1>
+        
+        <form id="registerForm">
+        <div class="mb-4">
+            <label for="username" class="block text-gray-700 font-bold mb-2">Username</label>
+            <input
+            type="text"
+            id="username"
+            name="username"
+            class="w-full px-3 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-black"
+            placeholder="Enter your username"
+            required
+            />
+        </div>
+        <div class="mb-4">
+            <label for="password" class="block text-gray-700 font-bold mb-2">Password</label>
+            <input
+            type="password"
+            id="password"
+            name="password"
+            class="w-full px-3 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-black"
+            placeholder="Enter your password"
+            required
+            />
+        </div>
+        <div class="mb-4">
+            <label for="confirmPassword" class="block text-gray-700 font-bold mb-2">Confirm Password</label>
+            <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            class="w-full px-3 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-black"
+            placeholder="Confirm your password"
+            required
+            />
+        </div>
+        <div class="flex justify-between place-items-end">
+            <button
+            type="button"
+            class="px-4 py-2 text-white bg-black rounded-lg hover:bg-gray-800 "
+            onclick="register()"
+            >
+            Register
+            </button>
+        </div>
+        </form>
+    </div>
+</body>
+</html>
