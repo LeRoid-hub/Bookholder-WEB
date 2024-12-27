@@ -1,4 +1,4 @@
 # Bookholder APP
 
 ## Build CSS
-npx tailwindcss -i ./public/css/input.css -o ./public/css/master.css --watch
+npx tailwindcss -i ./assets/css/input.css -o ./assets/css/master.css --watch
